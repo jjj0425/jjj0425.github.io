@@ -57,6 +57,10 @@
   color: #0077b5;
 }
 
+.medium {
+  color: black;
+}
+
 .angellist {
   color: grey;
 }
@@ -78,6 +82,10 @@
   background-color: black;
 }
 
+.medium:hover {
+  background-color: black;
+}
+
 /* Buttons - Read Me, Contact Us */
 
 .readme {
@@ -94,10 +102,10 @@
   -webkit-border-radius: 5px;
 }
 
-/* .readme:hover{
+.readme:hover{
 color: white;
 background-color: #00796b;
-} */
+}
 
 .contactme {
   position: relative;
@@ -110,6 +118,7 @@ background-color: #00796b;
   letter-spacing: 1px;
   display: inline-block;
   margin-top: 1.5em;
+  margin-left: 1.5em;
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
