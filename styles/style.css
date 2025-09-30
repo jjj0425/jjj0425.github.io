@@ -424,3 +424,6 @@ a.hoverline:hover {
   }
   #intro.section { background-position-x: 30%; }
 }
+.card-content ul li a {
+  text-transform: none !important;
+}
